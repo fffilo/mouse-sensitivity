@@ -23,7 +23,7 @@ A simple mouse sensitivity indicator for Ubuntu: increase or decrease your mouse
 
 	# create executable
 	sudo sh -c "echo \#\!/bin/bash > /usr/bin/mouse-sensitivity"
-	sudo sh -c "echo 'python /usr/share/mouse-sensitivity/mouse.py >/dev/null 2>&1 &' >> /usr/bin/mouse-sensitivity"
+	sudo sh -c "echo 'python /usr/share/mouse-sensitivity/src/mouse.py >/dev/null 2>&1 &' >> /usr/bin/mouse-sensitivity"
 	sudo chmod +x /usr/bin/mouse-sensitivity
 
 That's it, you're done. All you need to do now is type `mouse-sensitivity` in your terminal and indicator will be shown in notification area.
